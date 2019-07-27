@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "miaowu";
+    src: url("miaowu.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
+    font-family: miaowu;
 
 }
 a {
