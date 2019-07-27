@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖系统</title>
+    <link rel="stylesheet" href="./lucky-draw.css">
+</head>
+<body>
+
+<div id="container">
+
+    <div id="login" style="display: none">
+        <h1>登录</h1>
+        <input type="text" placeholder="账号">
+        <input type="password" placeholder="密码">
+        <button>登录</button>
+    </div>
+
+   <div id="main">
+       <div class="screen">
+           <span class="title">中奖人</span>
+           <div id="result"></div>
+       </div>
+        <button class="begin" id="btnBegin" ONCLICK="begin();">开始</button>
+       <button class="end" id="btnEnd" ONCLICK="end();">结束</button>
+   </div>
+</div>
+</body>
+<script src="jquery.min.js"></script>
+<script src="lucky-draw.js"></script>
+</html>
